@@ -1,8 +1,0 @@
-Need of React/State Var?
-When we want the var to update on runtime then we use State var. If we use local var and it is updated by any activity it's value does not get re-rendered on the UI. React does not keep a track of all the var's. If we want the var to be in sync with the UI we have to use state var.
-
-React var = state var
-Every component in react maintains a state and we can put all the variables in the state and everytime when there is a need to create local variables we use state in it.
-
-How to do it? => useState Hooks
-Hooks is normal functions. To create state var we use a useSate() hook. We import it from react. useState() Hook returns an array
