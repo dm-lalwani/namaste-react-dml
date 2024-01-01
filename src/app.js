@@ -27,8 +27,6 @@ import { Title } from "./components/Header.js";
         - Copyright
  */
 
-
-
 const AppLayout = () => {
   return (
     <>
